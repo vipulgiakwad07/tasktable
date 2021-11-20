@@ -1,0 +1,17 @@
+table{
+
+    color: #fff;
+	margin-top: 70px;
+	
+	background: #333;
+    text-align: center;
+	
+}
+
+#show th, #show td{
+	padding:20px;
+}
+
+#btna td input{
+	width: 100%;
+}

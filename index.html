@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+	<center>
+		<table border="4">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<td><input type="text" name="fname" id="fname"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Last Name</th>
+					<td><input type="text" name="lname" id="lname"></td>
+				</tr>
+				<tr>
+					<th>Address</th>
+					<td><input type="text" name="Address" id="address"></td>
+				</tr>
+				<tr>
+					<th>Pincode</th>
+					<td><input type="text" name="pincode" id="pincode"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="4" id="show">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Address</th>
+					<th>Pincode</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	
+	
+<script type="text/javascript" src="script.js"></script>
+
+	
+</body>
+</html>
